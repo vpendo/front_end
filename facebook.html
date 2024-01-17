@@ -16,12 +16,15 @@
          .alu{
             width: 100%;
             margin: 10px auto ;
-            padding: 14px;
+            padding: 12px;
             border: 1px solid lightgrey;
-            background: blue;
+            background:rgb(98, 0, 255);
             display:block;
-            border-radius:10px ; 
-            color:white;
+            border-radius:10px ;
+            text-align: center; 
+            font-weight: bold;
+            color: white;
+            
         }
 
         .inputs{
@@ -36,7 +39,8 @@
             padding: 12px;
                 text-decoration: none;
                 color:blue;
-                float: right;
+                text-align: right;
+                font-weight: bold;
         
         }
         .log{
@@ -47,26 +51,28 @@
             background:blue;
             display:block;
             border-radius:10px ;
-            float:center; 
+            text-align: center; 
+            font-weight: bold;
             color: white;
-            gap: 10px;
-        }   
+            
+        }
         
         
     </style>    
 </head>
 <body>
-    <form class="myform">
-   <br><input class="alu" type="login african leadership" placeholder="Log in with African Leadership University"> </br>
-   <p style="text-align: center;">________________   OR   __________________</p>
-    <br> <label >EMAIL</label></br>
+    <div class="myform">
+   <a class="alu" href="" target="_black">Log in with African Leadership University </a>
+    <label >EMAIL</label>
     <input class="inputs" type="Email" placeholder="Email" required />
     <label>PASSWORD</label>
     <input class="inputs" type="Password" placeholder="Password" required />
      <a class="link" href="">Forgot password?</a> 
-    <input class="log" type="login" placeholder="Log in" />
-    <br> <p> This site is protected by reCAPTCHA Enterprise and google privacy policy and Term service apply.</p><br>
-    <center> <p>Having trouble logging in ?</p></center>
+    <button class="log" >Login</button>
+    <center> This site is protected by reCAPTCHA Enterprise and google privacy policy and Term service apply.</p><br>
+     <p>Having trouble logging in ?</p>
+    </center>
+     </div>
     </form>
 </body>
 </html>
